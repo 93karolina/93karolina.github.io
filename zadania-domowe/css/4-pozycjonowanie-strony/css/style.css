@@ -1,0 +1,163 @@
+body {
+    width: 100%;
+    position: relative;
+    font-style: lato;
+}
+
+header {
+    height: 350px;
+    background-color: #c9c9c9;
+    color: #2a6fc2;
+    position: relative; 
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+#triangle {
+    
+    width: 0;
+    height: 0;
+	border-top: 30% solid #2a6fc2;
+    border-bottom: 100% solid transparent;
+    position: absolute;
+}
+
+.menu {
+    height: 70px;
+    background-color: white;
+    text-align: right;
+    padding-top: 15px;
+    font-size: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+li {
+    margin: 20px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#about {
+    background-color: #edce95;
+    width: 100%;
+    height: 700px;
+}
+
+#omnie {
+    font-size: 35px;
+    display: block;
+    width: 40%;
+    height: 50%;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    left: 30%;
+    padding: 20px;
+}
+
+.kola {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.jeden{ 
+    top:-25px;
+    left:-25px;
+}
+
+.dwa{ 
+    top:-25px;
+    right:-25px;
+}
+
+.trzy{ 
+    bottom:-25px;
+    left:-25px;
+}
+
+.cztery{ 
+    bottom:-25px;
+    right:-25px;
+}
+
+.szare {
+    background-color: #808080;
+}
+
+#portfolio {
+    height: 400px;
+    position: relative;
+    left: 30%;
+}
+
+.kolo {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 10px; 
+}
+
+.malekolo {
+    background-color: #2a6fc2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    position: relative;
+    left: 85px;
+    top:-15px;
+}
+
+footer {
+    background-color: #edce95;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    
+}
+
+.contact {
+    background-color: #2a6fc2;
+    color:white;
+    width: 40%;
+    position: relative;
+    left:30%;
+}
+
+.lewy{
+    left: -25px;
+    top: 25px;
+}
+
+.prawy {
+    right: -25px;
+    bottom: 25px;
+}
+
