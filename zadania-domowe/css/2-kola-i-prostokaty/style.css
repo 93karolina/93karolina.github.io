@@ -1,0 +1,37 @@
+.duze {
+    background-color: green;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.male {
+    background-color: orange;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.dwa {
+    right: 0px;
+    top: 0px;
+}
+
+.trzy {
+    bottom: 0px;
+    left: 0px;
+}
+
+.cztery {
+    bottom: 0px;
+    right: 0px;
+}
+
+.kolo {
+    background-color: blue;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

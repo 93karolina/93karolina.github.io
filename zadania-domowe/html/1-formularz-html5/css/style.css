@@ -1,0 +1,91 @@
+body {
+    background-color: #213b50;
+    color: white;
+   
+    
+}
+input[type="text"], #city, #phone, #mail {
+    background-color: #2b4a64;
+    color: white;
+    width: 400px;
+    height: 30px;
+    border: 0px;
+    margin: 5px;
+}
+
+#message {
+    background-color: #2b4a64;
+    color: white;
+    width: 200px;
+    height: 100px
+    border: 0px;
+    
+}
+input[type="text"]:focus, #city:focus, #phone:focus, #mail:focus {
+    background-color: #4e708c;
+    margin:5px;
+}
+
+input[type="submit"] {
+    background-color: rgb(18, 134, 67);
+    color: white;
+    border: 0px;
+    width:auto;
+    padding: 10px 20px;
+    cursor: ponter;
+}
+input[type="submit"]:hover {
+    background-color: aqua;
+}
+
+/* rozwiązanie Łukasza
+form {
+    background-color: #213b50;
+    color: #fff;
+    padding: 20px;
+}
+
+input,
+select, 
+textarea {
+    background-color: #2b4a64;
+    color: #fff;
+    border: 1px solid #2b4a64;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+input:focus,
+select:focus, 
+textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #fff;
+}
+
+label {
+    display: block;
+}
+
+label[for*="male"],
+label[for="agreement"] {
+    display: inline;
+}
+
+
+input[type="submit"] {
+    background-color: #1ac056;
+    padding: 10px 20px;
+    width: auto;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #46e881;
+} */
