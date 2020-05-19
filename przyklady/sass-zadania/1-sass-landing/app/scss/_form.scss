@@ -1,0 +1,36 @@
+.form-section {
+    
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 200px;
+    
+
+    h3 {
+        font-size: 1.4rem;
+        margin: 5px;
+        margin-bottom: 15px;
+    }
+}
+
+.form {
+    background-color: $primary-background-color;
+    padding: 20px;
+}
+
+input,
+textarea,
+.btn {
+    margin: 5px;
+}
+
+.btn,
+.btn:hover {
+    background-color: $secondary-font-color;
+    color: $secondary-background-color;
+}
+
+span {
+    color: $secondary-font-color;
+}

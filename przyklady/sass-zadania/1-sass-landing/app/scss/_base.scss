@@ -1,0 +1,19 @@
+body {
+    color: $primary-font-color;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.yellow-color {
+    color: $secondary-font-color;
+}
+
+@media (max-width: 1200px){
+    .container {
+      width: $media-mobile-width;
+    }
+}
+@media (max-width: 840px){
+    .container {
+      width: 80%;
+    }
+}

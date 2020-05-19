@@ -1,0 +1,80 @@
+body {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif; }
+
+.yellow-color {
+  color: #ecd407; }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 100%; } }
+
+@media (max-width: 840px) {
+  .container {
+    width: 80%; } }
+
+.main-header {
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+  margin-top: 20px; }
+
+.contact-data {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px; }
+  .contact-data i {
+    font-size: 1.5rem;
+    margin-top: 5px; }
+  .contact-data p {
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 5px; }
+  .contact-data .tel {
+    font-size: 1rem; }
+
+.form-section {
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 200px; }
+  .form-section h3 {
+    font-size: 1.4rem;
+    margin: 5px;
+    margin-bottom: 15px; }
+
+.form {
+  background-color: #001d8a;
+  padding: 20px; }
+
+input,
+textarea,
+.btn {
+  margin: 5px; }
+
+.btn,
+.btn:hover {
+  background-color: #ecd407;
+  color: #292929; }
+
+span {
+  color: #ecd407; }
+
+.footer {
+  background-color: #292929;
+  padding: 60px;
+  font-weight: 100; }
+  .footer .ikon {
+    font-size: 4rem; }
+  .footer p {
+    padding: 10px;
+    font-size: 0.8rem;
+    margin: 3px; }
+
+a {
+  color: #fff;
+  font-size: 0.8rem; }
+
+a:hover {
+  color: #ecd407; }

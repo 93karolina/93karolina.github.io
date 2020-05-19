@@ -1,0 +1,28 @@
+.footer {
+    background-color: $secondary-background-color;
+    padding: 60px;
+    font-weight: 100;
+    
+
+    .ikon {
+        font-size: 4rem;
+
+    }
+
+    p {
+        padding:10px;
+        font-size: 0.8rem;
+        margin: 3px;
+    }
+}
+
+a {
+     color: $primary-font-color;
+     font-size: 0.8rem;
+}
+
+a:hover {
+    color: $secondary-font-color;
+}
+
+
